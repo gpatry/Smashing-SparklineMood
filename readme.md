@@ -1,4 +1,4 @@
-# Sparklinemood
+# Samshing-Sparklinemood
 
 This widget is a merge of the Nicolas Deverge's Teammood widget [Teammood.coffee](https://gist.github.com/ndeverge/5356317f593b3b09bb58) and the [Sparkline](https://gist.github.com/jorgemorgado/26068a72540619a4d4ec) widget
 This widget show the average moods for a team and a sparkline whith the last 15 days average.
