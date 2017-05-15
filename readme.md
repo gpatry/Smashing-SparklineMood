@@ -23,4 +23,4 @@ To include the widget in a dashboard, add the following snippet to the dashboard
 
 ## Preview
 
-![](http://confluence.b.bbg/pages/viewpage.action?pageId=199459240&preview=/199459240/308512098/smashing-widget-sparlinemood.png)
+![](https://github.com/gpatry/Smashing-SparklineMood/blob/master/smashing-widget-sparlinemood.png)
