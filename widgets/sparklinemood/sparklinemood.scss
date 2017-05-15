@@ -1,0 +1,134 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color: #D4B336;
+$background-color-second:  #FCD549;
+$value-color:       #E1C7D6;
+
+$title-color:       #E1C7D6;
+$moreinfo-color:  rgba(255, 255, 255, 0.7);
+$change-color: darkgrey;
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('icomoon.eot');
+	src:url('icomoon.eot') format('embedded-opentype'),
+		url('icomoon.woff') format('woff'),
+		url('icomoon.ttf') format('truetype'),
+		url('icomoon.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// ----------------------------------------------------------------------------
+// Widget-number styles
+// ----------------------------------------------------------------------------
+.widget-sparklinemood {
+
+  background-color: $background-color;
+
+  h2 {
+    bottom: 15px;
+    position: relative;
+    left:auto;
+  }
+
+	div.sparkline-container {
+    // border:1px solid black;
+    //margin-left: -12px;
+    //margin-right: -12px;
+  }
+
+  svg {
+    // border:1px solid red;
+    position: block;
+    opacity: 0.4;
+    fill-opacity: 0.4;
+    padding: 3px 0px 4px;
+    width: 100%;
+  }
+
+	.x_tick, .y_ticks, .domain {
+    display: none;
+  }
+
+  .value {
+    color: $value-color;
+  }
+
+  .change-rate {
+    font-weight: 500;
+    font-size: 30px;
+    color: $change-color;
+    margin-right: 5px;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+      top: 225px;
+  }
+
+  [class^="icon-"], [class*=" icon-"] {
+  	font-family: 'icomoon';
+  	speak: none;
+  	font-style: normal;
+  	font-weight: normal;
+  	font-variant: normal;
+  	text-transform: none;
+  	line-height: 1;
+
+  	/* Better Font Rendering =========== */
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon {
+    font-size: 6em;
+  }
+
+  .icon-5, .icon-thumbs-up, .icon-excellent {
+    color: #1abc9c;
+  }
+
+  .icon-4, .icon-smile, .icon-good {
+    color: #5c91df;
+  }
+
+  .icon-3, .icon-meh, .icon-average {
+    color: #f1c40f;
+  }
+
+  .icon-2, .icon-frown, .icon-hard {
+    color: #ff7a23;
+  }
+
+  .icon-1, .icon-thumbs-down, .icon-bad {
+    color: #8c3b5b;
+  }
+
+  .icon-happy:before {
+      content: "\e605";
+  }
+
+  .icon-smiley:before {
+      content: "\e606";
+  }
+
+  .icon-neutral:before {
+      content: "\e608";
+  }
+
+  .icon-wondering:before {
+      content: "\e609";
+  }
+
+  .icon-sad:before {
+      content: "\e607";
+  }
+
+  .spacer{
+    padding-top: 20px;
+  }
+
+
+}
