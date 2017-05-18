@@ -18,7 +18,7 @@ To use this widget :
 To include the widget in a dashboard, add the following snippet to the dashboard layout file:
 
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
-      <div data-id="sparklinemood" data-view="sparklinemood" data-title="TeamMood"></div>
+      <div data-id="sparklinemood" data-view="Sparklinemood" data-title="TeamMood" data-graphtype="area"></div>
     </li>
 
 ## Preview
